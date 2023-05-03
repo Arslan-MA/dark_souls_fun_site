@@ -1,0 +1,114 @@
+@font-face {
+	font-family: "MasonChronicles";
+	src: url("../fonts/masonchronicles.eot");
+	src: url("../fonts/masonchronicles.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/masonchronicles.otf") format("opentype"),
+		url("../fonts/masonchronicles.svg") format("svg"),
+		url("../fonts/masonchronicles.ttf") format("truetype"),
+		url("../fonts/masonchronicles.woff") format("woff"),
+		url("../fonts/masonchronicles.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+::selection {
+	background: #F7710B;
+}
+body {
+	margin:0;
+    background:url("../image/img_profile.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	font-family: "MasonChronicles";
+	color: #E5E5E5;
+	text-align: center;
+	z-index: -1;
+}
+a {
+	color: #E5E5E5;
+	text-decoration: none;
+}
+p {
+	font-size: 18px;
+}
+
+
+/*Лого сайта*/
+.logo {
+	background: #1B1B1B;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+}
+.element {
+	background: linear-gradient(#F7710B, #1B1B1B);
+	border: #E5E5E5 groove;
+	border-radius: 5px;
+	width: 100px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 10px;
+	display: inline-block;
+}
+.element:hover {
+	background: #1B1B1B;
+}
+
+
+/*Конетнт*/
+.div1 {
+	position: relative;
+	top: 100px;
+	margin: auto;
+	padding: 25px;
+	width: 1000px;
+	background: #1B1B1B;
+	opacity: 0.9;
+}
+.block {
+	background: linear-gradient(#1B1B1B, #F7710B);
+	border: #E5E5E5 solid;
+	border-radius: 35px;
+	width: 500px;
+	padding: 15px;
+}
+.input_block {
+	font-size: 35px;
+}
+.input {
+	background-color: #E5E5E5;
+	border: #1B1B1B solid;
+	border-radius: 20px;
+	font-size: 25px;
+	width: 300px;
+	height: 35px;
+	padding: 5px;
+}
+.input:hover {
+	width: 310px;
+	height: 40px;
+}
+.button {
+	margin: 15px 0 0 0;
+	padding: 5px;
+	background-color: #1B1B1B;
+	color: #E5E5E5;
+	font-size: 30px;
+	border: #1B1B1B solid;
+	border-radius: 15px;
+}
+.button:active {
+	border: #1B1B1B solid;
+	background-color: #F7710B;
+}
+.footer {
+	position: fixed;
+	bottom: 0px;
+	background: #1B1B1B;
+	width: 100%;
+	height: 50px;
+	z-index: 1;
+}
